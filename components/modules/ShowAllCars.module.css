@@ -1,0 +1,21 @@
+.container {
+  width: 400px;
+  margin: 50px auto;
+}
+
+.container a {
+  border-radius: 5px;
+  border: 1px solid #ade200;
+  background-color: #befa00;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 320px;
+  }
+}
